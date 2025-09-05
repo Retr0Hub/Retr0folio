@@ -1,0 +1,18 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto:wght@300;400&display=swap');
+@import "tailwindcss";
+
+body {
+  background-color: #1a1b26;
+  color: #c0caf5;
+  cursor: url('/cursors/default.png'), auto; /* Custom cursor */
+}
+
+/* For glowing borders on panels */
+.glass-panel {
+  background: rgba(42, 45, 62, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(122, 162, 247, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(122, 162, 247, 0.2);
+}
