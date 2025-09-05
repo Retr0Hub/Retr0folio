@@ -1,0 +1,319 @@
+.charater {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 1988px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 25px;
+  	color: #161722;
+  	font-family: Quicksand;
+}
+.header {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 700px);
+  	width: 1400px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 20px 0px;
+  	box-sizing: border-box;
+  	gap: 0px;
+  	font-size: 20px;
+}
+.logo {
+  	width: 64px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #000;
+  	height: 64px;
+}
+.button {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	gap: 150px;
+}
+.home {
+  	position: relative;
+  	color: #000;
+}
+.character {
+  	position: relative;
+}
+.buttonLogin {
+  	border-radius: 20px;
+  	border: 3px solid #161722;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 15px 50px;
+}
+.lumi {
+  	position: absolute;
+  	top: 170px;
+  	left: 32px;
+  	font-size: 150px;
+  	font-family: 'Mrs Sheppards';
+}
+.text {
+  	position: absolute;
+  	top: 286px;
+  	left: 32px;
+  	width: 909px;
+  	height: 620px;
+}
+.bgIcon {
+  	position: relative;
+  	border-radius: 40px;
+  	width: 909px;
+  	height: 620px;
+}
+.story {
+  	position: absolute;
+  	top: calc(50% - 206px);
+  	left: 0px;
+  	width: 909px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 10px;
+  	box-sizing: border-box;
+  	gap: 25px;
+}
+.text1 {
+  	width: 560px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 10px;
+  	box-sizing: border-box;
+}
+.lumiChinese {
+  	flex: 1;
+  	position: relative;
+  	font-weight: 500;
+}
+.text2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 10px;
+}
+.fromDenseForests {
+  	margin: 0;
+}
+.skill {
+  	position: absolute;
+  	top: 826px;
+  	left: 32px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	gap: 30px;
+}
+.skillChild {
+  	width: 90px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #9d3c51;
+  	height: 90px;
+}
+.charater2 {
+  	position: absolute;
+  	top: 195px;
+  	left: 965px;
+  	width: 443px;
+  	height: 711px;
+}
+.subtractIcon {
+  	position: relative;
+  	border-radius: 100px;
+  	width: 388px;
+  	height: 711px;
+}
+.charaterSubtractIcon {
+  	position: relative;
+  	border-radius: 100px;
+  	width: 443px;
+  	height: 618px;
+}
+.iconClass {
+  	position: absolute;
+  	top: 525px;
+  	left: 278px;
+  	width: 90px;
+  	height: 90px;
+  	object-fit: cover;
+}
+.iconWeapon {
+  	position: absolute;
+  	top: 619px;
+  	left: 351px;
+  	width: 80px;
+  	height: 80px;
+  	object-fit: cover;
+}
+.rank {
+  	position: absolute;
+  	top: 389px;
+  	left: 201px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	gap: 5px;
+}
+.rankChild {
+  	width: 50px;
+  	position: relative;
+  	height: 50px;
+}
+.charaterLogo {
+  	position: absolute;
+  	top: 108px;
+  	left: 358px;
+  	border-radius: 1000px;
+  	background-color: #9d3c51;
+  	width: 70px;
+  	height: 70px;
+}
+.info {
+  	position: absolute;
+  	top: 1099px;
+  	left: 62px;
+  	width: 579px;
+  	height: 821px;
+  	text-align: center;
+  	font-size: 39px;
+  	color: #000;
+}
+.bg1Icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 40px;
+  	width: 579px;
+  	height: 821px;
+}
+.charaterBgIcon {
+  	position: relative;
+  	border-radius: 40px;
+  	width: 539px;
+  	height: 781px;
+}
+.resonatorInformation {
+  	position: absolute;
+  	top: 20px;
+  	left: 175px;
+  	display: inline-block;
+  	width: 282px;
+  	height: 100px;
+}
+.charaterText {
+  	position: absolute;
+  	top: 506px;
+  	left: 54px;
+  	width: 415px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 28px;
+  	text-align: left;
+  	font-size: 31px;
+}
+.electro {
+  	font-weight: 500;
+}
+.charaterRank {
+  	position: absolute;
+  	top: 216px;
+  	left: 409px;
+  	width: 60px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 5px;
+}
+.charaterRankChild {
+  	width: 60px;
+  	position: relative;
+  	height: 60px;
+}
+.galleryIcon {
+  	position: absolute;
+  	height: 42.39%;
+  	width: 60.1%;
+  	top: 17.17%;
+  	right: 33.68%;
+  	bottom: 40.44%;
+  	left: 6.22%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.lumiStats {
+  	position: absolute;
+  	top: 1099px;
+  	left: 707px;
+  	width: 667px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 50px;
+  	text-align: center;
+  	color: #000;
+}
+.level {
+  	align-self: stretch;
+  	border-radius: 20px;
+  	background-color: #e5e9ed;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	gap: 180px;
+}
+.index2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 50px;
+}
+.columns {
+  	width: 189px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 50px;
+}
+.charaterHp {
+  	align-self: stretch;
+  	border-radius: 20px;
+  	background-color: #e5e9ed;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+
